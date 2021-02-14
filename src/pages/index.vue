@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <p>index.vue</p>
     <router-link to="/about"> about </router-link>
     <p>

@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "d": "cross-env DEBUG=vite-plugin-windicss:* vite --debug",
-    "b": "cross-env DEBUG=vite-plugin-windicss:* vuedx-typecheck . && vite build  --debug",
+    "d": "vite --debug",
+    "b": "vuedx-typecheck . && vite build  --debug",
     "s": "vite preview  --debug",
     "l": "eslint --fix --ext .ts,vue --ignore-path .gitignore ."
   },
@@ -25,7 +25,6 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vuedx/typecheck": "^0.6.3",
     "@vuedx/typescript-plugin-vue": "^0.6.3",
-    "cross-env": "^7.0.3",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
@@ -35,6 +34,6 @@
     "vite": "^2.0.0-beta.69",
     "vite-plugin-pages": "^0.4.2",
     "vite-plugin-vue-layouts": "^0.2.2",
-    "vite-plugin-windicss": "^0.0.6"
+    "vite-plugin-windicss": "^0.1.1"
   }
 }
