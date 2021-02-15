@@ -1,8 +1,7 @@
-const colors = require('tailwindcss/colors')
-const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('windicss/colors')
+const defaultTheme = require('windicss/defaultTheme')
 
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -39,13 +38,10 @@ module.exports = {
       }
     }
   },
-  variants: {
-    extend: {}
-  },
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/aspect-ratio')
+    require('windicss/plugin/forms'),
+    require('windicss/plugin/typography'),
+    require('windicss/plugin/line-clamp'),
+    require('windicss/plugin/aspect-ratio')
   ]
 }
