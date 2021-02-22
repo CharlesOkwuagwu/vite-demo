@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "d": "vite --debug",
-    "b": "vuedx-typecheck . && vite build  --debug",
+    "b": "vite build  --debug",
     "s": "vite preview  --debug",
     "l": "eslint --fix --ext .ts,vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@vueuse/core": "^4.1.1",
+    "@vueuse/core": "^4.2.1",
     "vue": "^3.0.5",
     "vue-router": "4.0.3"
   },
@@ -23,17 +23,15 @@
     "@vitejs/plugin-vue": "^1.1.4",
     "@vue/compiler-sfc": "^3.0.5",
     "@vue/eslint-config-prettier": "^6.0.0",
-    "@vuedx/typecheck": "^0.6.3",
-    "@vuedx/typescript-plugin-vue": "^0.6.3",
     "eslint": "^7.20.0",
-    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.6.0",
     "prettier": "^2.2.1",
     "typescript": "^4.1.5",
-    "vite": "^2.0.0",
+    "vite": "^2.0.1",
     "vite-plugin-pages": "^0.4.4",
     "vite-plugin-vue-layouts": "^0.2.2",
-    "vite-plugin-windicss": "^0.2.0"
+    "vite-plugin-windicss": "^0.4.7"
   }
 }
